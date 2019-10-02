@@ -27,7 +27,7 @@ function showPage (list, page) {
    }
 }
 
-
+//dynamically creatting the pagination div 
 const container = document.querySelector('.page');
    const div = document.createElement('div');
    div.className = ('pagination');
